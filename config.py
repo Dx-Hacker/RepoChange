@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TeamEspro/EsproMusicBot",
+    "https://github.com/Dx-Hacker/RepoChange",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "ritik")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/EsproUpdate")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/EsproSupport")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/NeoUpdatess")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/FRIENDS2FAMILY_00")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
